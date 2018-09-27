@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Роттердамская конвенция в РБ</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+<header class="header">
+    <!-- Main Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <!--<div class="search-area">-->
+        <!--<div class="search-area-inner d-flex align-items-center justify-content-center">-->
+        <!--<div class="close-btn"><i class="icon-close"></i></div>-->
+        <!--<div class="row d-flex justify-content-center">-->
+        <!--<div class="col-md-8">-->
+        <!--<form action="#">-->
+        <!--<div class="form-group">-->
+        <!--<input type="search" name="search" id="search" placeholder="What are you looking for?">-->
+        <!--<button type="submit" class="submit"><i class="icon-search-1"></i></button>-->
+        <!--</div>-->
+        <!--</form>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="container">
+            <!-- Navbar Brand -->
+            <div class="navbar-header d-flex align-items-center justify-content-between">
+                <!-- Navbar Brand -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo-main.png" width="350" alt="Логотип Роттердамской конвенции и центра гигиены"
+                         class="img-fluid">
+                </a>
+                <!-- Toggle Button-->
+                <button type="button" data-toggle="collapse" data-target="#navbarcollapse"
+                        aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"><span></span><span></span><span></span></button>
+            </div>
+            <!-- Navbar Menu -->
+            <div id="navbarcollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link ">Новости</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Информация
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="information.html">Информационные ресуры</a>
+                            <a class="dropdown-item" href="chemicals.html">Пестициды и промышленные химикаты</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link ">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.html" class="nav-link active">Контакты</a>
+                    </li>
+                </ul>
+                <!--<div class="navbar-text"><a href="#" class="search-btn"><i class="fas fa-search"></i></a></div>-->
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <header>
+                    <h2>Контакты</h2>
+                </header>
+                <b>Адрес:</b><br/>
+                220012, Республика Беларусь,
+                <br/>г.Минск, ул.Академическая, 8 <br/>
+                <br/><br/>
+                <b>E-mail:</b> <br/>
+                <a href="mailto:rspch@rspch.by ">rspch@rspch.by </a><br/>
+                <br/><br/>
+
+                <b>Телефоны:</b><br/>
+                Приемная:
+                <br/>
+                тел. (017) 284-13-70 <br/>
+                факс (017) 284-03-45 <br/>
+                <br/>
+                Информационно-справочная служба:<br/>
+
+                +375 (17) 284 13 74
+                <br/>
+                +375 (17) 233 92 83
+                <br/>
+                +375 (29) 233 92 83 (MTS)
+                <br/>
+                +375 (29) 193 92 83 (Velcom)<br/>
+                <br/>
+                "Горячая линия":<br/>
+                Шевчук Лариса Михайловна (017) 292-50-15
+                <br/>
+                Табелева Наталья Николаевна (017) 284-13-74
+
+                <br/><br/>
+            </div>
+
+            <div class="col-md-7">
+                <header>
+                    <h2>Связаться с нами</h2>
+                </header>
+                <form class="contact__form" method="POST" action="mail.php">
+                                
+                    <!-- form message -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                Ваше сообщение отправлено!
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end message -->
+
+                    <!-- form element -->
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <input name="name" type="text" class="form-control" placeholder="Имя" required>
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <input name="email" type="email" class="form-control" placeholder="Email" required>
+                        </div>
+        
+                        <div class="col-12 form-group">
+                            <textarea name="message" class="form-control" rows="3" placeholder="Сообщение" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <input name="submit" type="submit" class="btn" value="Отправить">
+                        </div>
+                    </div>
+                    <!-- end form element -->
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6698c22cce65fbbc2e32e3fb7063116979b0496376c62b1632dc81842302c85b&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+
+<div id="my-footer">
+    <div class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="footer-column">
+                        <img src="img/logo-footer.png" alt="Логотип Роттердамской конвенции и центра гигиены"
+                             class="logo-footer">
+                        <div class="social-footer">
+                            <nav class="social">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/rspchby/"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/rspch_by/"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/rspch_by"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://vk.com/certificate_by"><i class="fab fa-vk"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <div class="footer-column">
+                        <p class="footer-addr">
+                            <i class="fas fa-map-marker-alt"></i>
+                            г. Минск, ул. Академическая 8
+                        </p>
+                        <p class="footer-addr">
+                            <i class="far fa-clock"></i>
+                            Пнд - пт: 8.30 - 19.00 <br> Сб: 10.00 - 15.00
+                        </p>
+                        <p class="footer-addr">
+                            <i class="fas fa-phone"></i>
+                            (017) 284-13-70
+                        </p>
+                        <p class="footer-addr">
+                            <i class="far fa-envelope"></i>
+                            rspch@rspch.by
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-12 col-xs-12">
+                    <div class="footer-column">
+                        <div class="map">
+                            <script type="text/javascript" charset="utf-8" async
+                                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6698c22cce65fbbc2e32e3fb7063116979b0496376c62b1632dc81842302c85b&amp;width=100%&amp;height=200&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="top" title="Наверх">
+    <i class="fa fa-angle-double-up"></i>
+</div>
+
+<script src="js/scripts.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
